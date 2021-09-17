@@ -1,0 +1,19 @@
+body{
+    max-width: 90%;
+    margin: 0 auto;
+    width: 1000px;
+}
+p{
+font-family: Serif;
+    line-height: 20px;
+    color: darkblue;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+
+}
+a:visited{
+
+}

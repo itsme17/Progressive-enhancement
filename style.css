@@ -5,15 +5,83 @@ body{
 }
 p{
 font-family: Serif;
-    line-height: 20px;
-    color: darkblue;
+    line-height: 1;
+    font-size: 18px;
+    color: #345B63;
+}
+header{
+    background-color: yellow;
+    padding: 10px;
+}
+#title{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    line-height: 0;
+}
+h3{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+h4{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+.neighbour{
+    color: indianred;
+}
+.farmer{
+    color: #66bfbf;
+}
+.bad{
+    color: red;
+    text-transform: capitalize;
+    font-style: normal;
+}
+.good{
+    color: green;
+    font-style: normal;
+    text-transform: capitalize;
 }
 a{
     text-decoration: none;
 }
 a:hover{
-
+color: darkkhaki;
 }
 a:visited{
+color: crimson;
+    text-decoration: underline;
+}
+ul li{
+    list-style: circle;
+    font-size: 18px;
+    color: #345B63;
+}
+table{
+    border: 1px solid black;
+}
+td{
+    font-size: 18px;
+    padding: 10px;
+    color: #345B63;
+    border: 1px solid black;
+}
+.grey{
+    background-color: lightgrey;
+}
+.image{
+    float: left;
+    width: 50%;
+    margin-top: 41px;
+}
+.first-article{
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+
+}
+.table{
+    width: 50%;
+    padding-top: 50px;
 
 }
